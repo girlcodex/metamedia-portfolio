@@ -1,0 +1,32 @@
+
+/* Add a gradient background to the canvas */
+#myCanvas {
+  border: 0px solid #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(135deg, rgba(255, 255, 170, 0.3) 0%, rgba(0, 0, 0, 0.5) 50%,  rgba(255, 255, 170, 0.3) 100%); 
+}
+
+/* Style for the tags */
+#tags ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tags li {
+  margin: 10px;
+}
+
+#tags li a img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.9s;
+  border-radius: 10%;
+}
+
+#tags li a:hover img {
+  transform: scale(1.1);
+}
+
