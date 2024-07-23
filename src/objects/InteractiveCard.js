@@ -17,7 +17,6 @@ const InteractiveCard = () => {
         zIndex: "10",
       }}
     >
-      {/* card content */}
       <p>Hello World</p>
     </Box>
   );
