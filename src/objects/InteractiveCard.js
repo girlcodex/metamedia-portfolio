@@ -1,10 +1,8 @@
-import React, { useRef, useEffect } from "react";
-import { Container, Typography, Paper, Box } from "@mui/material";
+import React, { useRef } from "react";
+import { Box } from "@mui/material";
 
 const InteractiveCard = () => {
   const cardRef = useRef();
-
-  // Update card rotation based on mouse movement
 
   return (
     <Box
@@ -19,7 +17,7 @@ const InteractiveCard = () => {
         zIndex: "10",
       }}
     >
-      {/* Your card content */}
+      {/* card content */}
       <p>Hello World</p>
     </Box>
   );

@@ -79,8 +79,7 @@ const TagCanvasComponent = ({ setTagCanvasActive }) => {
     const textureLoader = new THREE.TextureLoader();
 
     const tags = [
-      { href: "https://link1.com", imgSrc: require("./wood.png") },
-      { href: "https://link2.com", imgSrc: require("https://via.placeholder.com/100") },
+      { href: "https://link1.com", imgSrc: require("../textures/wood.png") },
       { href: "https://link3.com", imgSrc: "https://via.placeholder.com/100.jpg" },
       { href: "https://link4.com", imgSrc: "https://via.placeholder.com/100.jpg" },
       { href: "https://link5.com", imgSrc: "https://via.placeholder.com/100.jpg" },

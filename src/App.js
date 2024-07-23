@@ -1,5 +1,5 @@
 import React from "react";
-import OceanScene from "./OceanScene";
+import OceanScene from "./scenes/OceanScene";
 
 import "./App.css";
 

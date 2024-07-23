@@ -26,12 +26,12 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import Island from "./island.js";
-import InteractiveCard from "./InteractiveCard";
-import WaterEffect from "./water";
-import FloatingMenu from "./FloatingMenu";
-import TagCanvasComponent from "./TagCanvasSphere";
-import skyboxImage from "./textures/sunset.jpg";
+//import Island from "../objects/island.js";
+import InteractiveCard from "../objects/InteractiveCard.js";
+import WaterEffect from "../objects/water.js";
+import FloatingMenu from "../objects/FloatingMenu.js";
+import TagCanvasComponent from "../objects/TagCanvasSphere.js";
+import skyboxImage from "../textures/sunset.jpg";
 
 function Skybox() {
   const { scene } = useThree();
@@ -348,7 +348,7 @@ function OceanScene() {
 
         {/* Floating Menu */}
         <FloatingMenu />
-        <Island />
+        {/* <Island /> */}
         {/* Interactive Card */}
         <Container
           style={{ position: "absolute", top: 20, left: 20, zIndex: 10 }}
